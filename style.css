@@ -1,0 +1,284 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #d3c3dc;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+p{
+  color: #9ea1a9;
+}
+.container{
+  height: 100vh;
+  position: relative;
+}
+
+
+/* dashboard section */
+.dashboard{
+  /* position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%; */
+  padding: 25px 25px 50px 25px;
+  background-color: #5f259e;
+  color: #fff;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+}
+.dashboardText h2{
+  margin-bottom: 10px;
+}
+.dashboardImg{
+  /* border: 5px solid white; */
+  color: #fff;
+  margin: 20px 20px 0 0;
+  height: 100px;
+  border-radius: 50px;
+}
+
+/* searchBar section */
+/* .searchBar{
+  background-color: #f1f8ff;
+  padding: 30px 0;
+  width: 83%;
+  border-radius: 35px 0 0 35px;
+  border-right: none;
+  margin-bottom: 6%;
+  font-size: 2.8rem;
+  text-align: center;
+}
+.btn{
+  background-color: #f1f8ff;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  height: 116px;
+  border-radius: 0 35px 35px 0;
+  border-left: none;
+  cursor: pointer;
+} */
+
+
+/* feature section */
+.x{
+  margin: 20px 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.xHeading{
+  padding: 20px 0 0 20px;
+}
+.features{
+  margin: 20px 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 30px;
+}
+ p.liveCount{
+  color: black;
+  font-size: 1.6rem;
+}
+.feature-1, .feature-2, .feature-3, .feature-4, .feature-5, .feature-6{
+  margin: 30px 50px;
+
+}
+.featureImg-1{
+  display: flex;
+  justify-content: center;
+  background-color: #5f259e;
+  color: white;
+  padding: 45px 30px;
+  border-radius: 45px;
+}
+.featureImg-2{
+  display: flex;
+  justify-content: center;
+  background-color: #5f259e;
+  color: white;
+  padding: 45px 40px;
+  border-radius: 45px;
+}
+.featureImg-3{
+  display: flex;
+  justify-content: center;
+  background-color: #5f259e;
+  color: white;
+  padding: 40px 0;
+  border-radius: 45px;
+}
+.featureImg-4{
+  display: flex;
+  justify-content: center;
+  background-color: #5f259e;
+  color: white;
+  padding: 42px 35px;
+  border-radius: 45px;
+}
+.featureText{
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* other servises */
+.service1{
+  background-color: #cc0000;
+}
+.service2{
+  background-color: #2e856e;
+}
+.service3{
+  background-color: #ED9121;
+}
+.service4{
+  background-color: #58CCED;
+}
+
+/* profile visits section */
+.profileVisits{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px -1px;
+  padding: 5px 20px 10px 20px;
+  background-color: #ffffff;
+  border-radius: 30px 30px 0 0;
+}
+.profileVisits h3{
+  padding-top: 20px;
+}
+.profileVisits span{
+  font-size: 2rem;
+  padding-right: 15px;
+}
+button.dropbtn{
+  background-color: white;
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 1px solid grey;
+}
+button.dropbtn:hover{
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  min-width: 200px;
+  overflow: auto;
+  z-index: 1;
+  text-align: center;
+}
+.dropdown-content button{
+  width: 200px;
+  font-size: 2rem;
+  padding: 5px;
+  display: block;
+  border: 0;
+
+}
+.show {
+  display: block;
+}
+
+
+
+.graphContainer{
+  margin: -5px 20px 0 20px;
+  padding: 0 60px 0;
+  height: 40rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 0 0 30px 30px;
+}
+.graphContainer .bar{
+  position: relative;
+  width: 50px;
+  height: 25rem;
+  background: white;
+  margin-top: 10px;
+}
+.barName{
+  color: black;
+  position: absolute;
+  bottom: -50px;
+}
+.graphContainer .bar .progressBar{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(to top, #00327b, #2b80ff);
+}
+.hundred-bar{
+  height: 100%;
+}
+.ninty-bar{
+  height: 90%;
+}
+.eighty-bar{
+  height: 80%;
+}
+.sixty-bar{
+  height: 60%;
+}
+
+
+.xyz{
+  margin: 20px 20px 0;
+  height: 400px;
+  background-color: #d3c3dc;
+  border-radius: 30px;
+}
+.xyz img{
+  height: 400px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+/* menu bar section */
+.menuBar{
+  background-color: #ffffff;
+  padding: 35px 0;
+  color: #a9adb1;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 10px 0 grey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.menuBar i:hover{
+  color: #505fb1;
+}
+
+.wallet{
+  height: 8rem;
+  background-color: #ffffff;
+  margin: 5px 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+
+}
+.ic{
+  color: #5f259e;
+  margin: 0 35px 0 55px;
+}
+.walletBtn{
+  padding: 15px 35px;
+  background-color: #5f259e;
+  color: #ffffff;
+  font-size: 2.2rem;
+  margin-left: 300px;
+  border-radius: 40px;
+  font-weight: bold;
+}
